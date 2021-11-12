@@ -29,11 +29,11 @@ namespace EntityLayer.Concrete
 
         public Category Category { get; set; }
 
+        public int WriterID { get; set; }
+
+        public Writer Writer { get; set; }
+
         public List<Comment> Comments { get; set; }
-
-
-
-
-
+        
     }
 }
